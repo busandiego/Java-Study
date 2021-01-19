@@ -1,4 +1,4 @@
-package com.lee.java_study.githubapi;
+package com.lee.java_study.week4.githubapi;
 
 import java.io.IOException;
 import java.util.Scanner;

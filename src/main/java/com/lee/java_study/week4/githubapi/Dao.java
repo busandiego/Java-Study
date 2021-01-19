@@ -1,4 +1,4 @@
-package com.lee.java_study.githubapi;
+package com.lee.java_study.week4.githubapi;
 
 
 import org.kohsuke.github.*;
