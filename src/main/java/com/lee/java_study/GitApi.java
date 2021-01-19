@@ -7,8 +7,9 @@ import java.util.*;
 
 public class GitApi {
 
-    public static final String GITTOKEN = "37f9be7a106c9b9b9385e31d50359ab7a576899e";
-    public static final String ID = "star1606";
+    // 끝까지 도달을 안하는데 이유는 모르겠음.
+    public static final String GITTOKEN = "70d7fa5a5a89f15fcbc9557c3876b7d109e87260";
+    public static final String ID = "busandiego";
 
     public static void main(String[] args) throws IOException {
 
@@ -18,6 +19,7 @@ public class GitApi {
         * @param userId
         * @param gitAccessToken
         * */
+
 
        final GitHub gitHub = new GitHubBuilder().withPassword(ID, GITTOKEN).build();
 
