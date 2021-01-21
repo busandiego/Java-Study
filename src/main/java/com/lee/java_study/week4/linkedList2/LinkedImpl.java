@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
 
-public class LinkedImpl implements LinkedList {
+public class LinkedImpl extends LinkedList {
 
     public LinkedImpl() {}
 
