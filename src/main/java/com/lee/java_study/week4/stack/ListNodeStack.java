@@ -8,8 +8,8 @@ public class ListNodeStack {
     Node topNode;
 
     @Getter
-    class Node{
-        int data;
+    public class Node{
+        public int data;
         Node next;
 
         public Node(int data){
