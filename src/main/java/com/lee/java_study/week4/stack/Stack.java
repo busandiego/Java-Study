@@ -20,6 +20,10 @@ public class Stack {
         this.stackArr = new int[size];
     }
 
+    public int[] getStackArr() {
+        return stackArr;
+    }
+
     /*
      *  @param data Data to insert
      * */
@@ -54,4 +58,7 @@ public class Stack {
         // data 꺼내고 그리고 index는 1감소됨 데이터 그 아래에 꺼 나타내야되니까
         return stackArr[top--];
     }
+
+
+
 }
