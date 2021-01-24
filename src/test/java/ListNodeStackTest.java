@@ -10,8 +10,8 @@ public class ListNodeStackTest {
         nStack.push(3);
         nStack.push(4);
 
-        Assertions.assertEquals(4, nStack.getTopNode().getData()); 이거 작동안함
-        // 이유 내부 클래스에 public 설정을 안해줘서.
+        Assertions.assertEquals(4, nStack.getTopNode().getData());
+        //이거 작동안함 // 이유 내부 클래스에 public 설정을 안해줘서.
     }
 
 
