@@ -1,8 +1,10 @@
 package com.lee.java_study.week2;
 
+import java.math.BigDecimal;
 import java.util.Arrays;
 
 public class Exam__Array {
+
 
 
     public static void main(String[] args) {
@@ -23,5 +25,18 @@ public class Exam__Array {
         Arrays.fill(arr2, 5);
 
         System.out.println("arr2 배열 값: " + Arrays.toString(arr2));
+
+
+        BigDecimal number = BigDecimal.ZERO;
+        for (int i = 0; i < 10; i++) {
+            number = number.add(BigDecimal.valueOf(0.1));
+
+        }
+        System.out.println(number);
     }
+
+
+
+
+
 }
