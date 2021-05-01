@@ -28,6 +28,10 @@ public class Exam__002 {
         double double_v3 = 1234E-3d;
         // - E 또는 e 가 숫자 뒤에 존재하는 리터럴 : 10 진수 지수와 가수 표현
         // ex) 5E8 // = 5 x 10^8
+        System.out.println("float 타입 실수 리터럴: " + float_v1);
+        System.out.println("double 타입 실수 리터럴1 : " + double_v1);
+        System.out.println("double 타입 실수 리터럴2 : " + double_v2);
+        System.out.println("double 타입 실수 리터럴3 : "+ double_v3);
         System.out.println();
 
         System.out.println("====== 문자 리터럴 ======");
